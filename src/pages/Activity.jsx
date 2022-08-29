@@ -272,6 +272,7 @@ const Activity = () => {
           </Modal>
           {/* akhir modal delete*/}
 
+          {/* update modal */}
           <Modal keepMounted open={openModalUpdate} aria-labelledby="keep-mounted-modal-title" aria-describedby="keep-mounted-modal-description">
             <Box sx={style} className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 shadow-xl bg-white w-1/2 max-w-xl p-8 rounded-lg">
               <div className="flex flex-col justify-between">
@@ -353,6 +354,7 @@ const Activity = () => {
           </Modal>
         </div>
       )}
+      {/* update modal */}
 
       {/* modal create add */}
       <Modal keepMounted open={open} aria-labelledby="keep-mounted-modal-title" aria-describedby="keep-mounted-modal-description">
